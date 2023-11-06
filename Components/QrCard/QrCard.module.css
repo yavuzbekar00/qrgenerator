@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+.detail{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.input{
+    padding:10px 15px;
+    margin-top: 200px;
+    font-size: 25px;
+    width: 100%;
+    margin-right: 20px;
+    text-align: center;
+}
+.button{
+    padding: 10px 15px;
+    background-color: rgb(148, 148, 148);
+    color: white;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: rgb(115, 115, 115);
+    cursor: pointer;
+    transition: all .3s;
+}
+.card{
+    background-color: #fff;
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+}
+.line{
+    width: 2px;
+    height: 400px;
+    background-color: #000;
+    opacity: .5;
+    margin: auto 0px;
+    margin-right: 20px;
+}
+.qrcode{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.qr{
+    width: 250px;
+    height: 250px;
+}
+.qr img{
+    width: 100%;
+}
+.qrHead{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+}
